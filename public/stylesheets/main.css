@@ -5,6 +5,7 @@ body {
   box-sizing: border-box; }
 
 /* VARIABLES */
+/* MIXINS */
 body {
   background-color: #c8e1ff;
   font-family: cursive; }
@@ -14,7 +15,11 @@ nav ul {
   list-style-type: none;
   margin-left: 30px;
   padding: 30px;
-  background-color: #d9e0ec; }
+  background-color: #d9e0ec;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px; }
 nav li {
   font-family: sans-serif;
   display: inline-block;
