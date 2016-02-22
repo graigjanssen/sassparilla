@@ -1,0 +1,24 @@
+{
+  "name": "sassparilla",
+  "version": "1.0.0",
+  "description": "My Sass learning playground.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graigjanssen/sassparilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graigjanssen/sassparilla/issues"
+  },
+  "homepage": "https://github.com/graigjanssen/sassparilla#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-sass": "^3.4.2",
+    "sass": "^0.5.0"
+  }
+}
