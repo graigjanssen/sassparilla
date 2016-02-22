@@ -1,5 +1,23 @@
+/* IMPORTING PARTIAL */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* VARIABLES */
 body {
   background-color: #c8e1ff;
   font-family: cursive; }
+
+/* NESTING */
+nav ul {
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 30px;
+  background-color: #d9e0ec; }
+nav li {
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 0 20px; }
 
 /*# sourceMappingURL=main.css.map */

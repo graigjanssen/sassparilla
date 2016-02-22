@@ -1,7 +1,31 @@
+/* IMPORTING PARTIAL */
+
+@import 'reset';
+
+/* VARIABLES */
+
 $primary-color: rgb(200, 225, 255);
+$secondary-color: rgb(217, 224, 236);
 $primary-font: cursive;
+$secondary-font: sans-serif;
 
 body {
   background-color: $primary-color;
   font-family: $primary-font;
+}
+
+/* NESTING */
+
+nav {
+  ul {
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 30px;
+    background-color: $secondary-color;
+  }
+  li {
+    font-family: $secondary-font;
+    display: inline-block;
+    padding: 0 20px;
+  }
 }
